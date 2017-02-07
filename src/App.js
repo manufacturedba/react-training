@@ -1,7 +1,7 @@
 import React from 'react';
 import Clock from './clock';
 import Comm from './comm';
-import Cart from './cart';
+import Cart from './cart_components/cart';
 
 class App extends React.Component {
    constructor (props) {
