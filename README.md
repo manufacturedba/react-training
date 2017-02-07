@@ -1,5 +1,7 @@
 # React: Learning
 
+> Resources for learning React
+
 ## Technologies
 
 * React
@@ -46,10 +48,25 @@ the RequireJS optimizer, Grunt/Gulp, and Browserify.
 Webpack is also suitable for serving our assets during development and running various plugins
 for transforming our code.
 
+#### Resources
+
+* [Beginner Webpack Tutorial](https://github.com/AriaFallah/WebpackTutorial) – A brief introduction to Webpack installation, configuration, and usage
+
 ### Babel
 
 Babel is a transpiler for converting ES6 features to ES5 compatible code.  
 
 It does not add any polyfills by default so features that cannot normally be converted will require polyfills.
 
-## Exercise
+#### Resources
+
+* [Babel Homepage](https://babeljs.io/) – Babel has little to learn so official page makes sense
+
+## Fruit Stand Exercise
+
+Included in this repository are a set of files inside `src/cart_components/`.  
+The objective of this exercise is to build a fruit stand that displays a total price for all fruit and display two buttons for adding and removing fruit.
+
+* Fork or create a branch [first-name]-exercise
+* Fill cart, fruit, and total components with code to satisfy objective.  **You may restructure or add/remove components but do not add additional libraries**
+* Push your exercise
