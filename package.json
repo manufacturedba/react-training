@@ -1,0 +1,35 @@
+{
+  "name": "react-training",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react-app": "^2.0.1",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-hot-middleware": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "start": "node scripts/start.js"
+  },
+  "description": "Resources on learning react and related technologies",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.windows.nagrastar.com/documentation/react-training"
+  },
+  "keywords": [
+    "react",
+    "es6",
+    "training",
+    "webpack"
+  ],
+  "author": "Rob Rodriguez <roberto.rodriguez@nagrastar.com>",
+  "license": "UNLICENSED"
+}
